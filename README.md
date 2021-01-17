@@ -8,12 +8,12 @@ You can run MongoDB as a macOS service using brew, or you can run MongoDB manual
 
 - To run MongoDB (i.e. the mongod process) as a macOS service, issue the following:
 
-brew services start mongodb-community@4.4
+> brew services start mongodb-community@4.4
 
 - To stop a mongod running as a macOS service, use the following command as needed:
 
-brew services stop mongodb-community@4.4
+> brew services stop mongodb-community@4.4
 
 - To run MongoDB (i.e. the mongod process) manually as a background process, issue the following:
 
-mongod --config /usr/local/etc/mongod.conf --fork
+> mongod --config /usr/local/etc/mongod.conf --fork
